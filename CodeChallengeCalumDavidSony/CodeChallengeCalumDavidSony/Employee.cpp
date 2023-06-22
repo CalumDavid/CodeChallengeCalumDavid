@@ -11,7 +11,7 @@ using std::vector;
  {
 	// name inherited from Observer
 
-	std::cout << "\n Employee & Machine Notification! \n" << std::endl;
+	std::cout << "\n Production Notification! \n" << std::endl;
 	std::cout << " Name of Employee : " << name << std::endl;
 	std::cout << " Role of " << name << " : " << role << std::endl;
 	std::cout << " Currnet Registered Machine of Interest : " << from << std::endl;

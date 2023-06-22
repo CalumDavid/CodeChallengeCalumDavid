@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dashboard.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Machine.cpp" />
     <ClCompile Include="main.cpp" />
@@ -146,10 +147,14 @@
     <ClCompile Include="Subject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dashboard.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Machine.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="Subject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

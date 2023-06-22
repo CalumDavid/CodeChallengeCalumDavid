@@ -13,6 +13,7 @@ private:
 
 public:
 	string getName();
+
 	// Constructor //
 	// initialize base class of Subject with starting state 
 	// initialize variable of name with machine name

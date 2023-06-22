@@ -30,6 +30,9 @@
     <ClCompile Include="Machine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dashboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Observer.h">
@@ -44,5 +47,11 @@
     <ClInclude Include="Machine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dashboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
