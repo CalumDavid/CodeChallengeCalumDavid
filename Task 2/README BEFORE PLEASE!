@@ -1,0 +1,30 @@
+
+Just incase I forget, to start the server :
+
+1. open git bash terminal in project dir
+2. type "npm init -y"
+3. type "npm i express
+4. type "npm start"
+5. press local host hyper link
+
+e.g 
+"> new-folder@1.0.0 start
+> node server.js
+
+Server running at http://localhost:3000/" Press the hyperlink!!
+
+
+// IMPORTANT!
+
+As I have had no experience in using Java to create web applications whilst having no experience in web socket implementation 
+within the time I was given I tried to research as much as possible and cover many web application methods mainly directing to the examples given within the code challenge. 
+
+Therefore in this example I'm using vanilla Java to make a single page web application for a local host.  
+I understand that it does not work with my C++ application for the machine state notification. 
+However, I didn't want to leave an attempt to the challenge task just because I hadn’t had experience in Java web applications. 
+
+Therefore, I have made a hypothetical system that if my C++ application
+were to be integrated into this system by changing the machine state within script.js, it would therefore change the web application colour and status accordingly. 
+
+Hypothetical example : is if my set state function within C++ could be integrated into this Java program, 
+I would link it to script.js setMachineStateDashboard("A", machineAstate); function.

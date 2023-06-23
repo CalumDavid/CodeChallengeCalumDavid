@@ -1,0 +1,54 @@
+#machineState-A { 
+    width: 160px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;
+
+}
+#machineState-B { 
+    width: 160px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;
+
+}
+#machineState-C { 
+    width: 160px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;
+
+}
+
+.state-producing {
+    background-color: green;
+}
+.state-idle {
+    background-color: yellow;
+}
+.state-starved {
+    background-color: Red;
+}
+.state-unknown {
+    background-color: gray;
+}
+
+table {
+    width: 20%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #0c0c0c;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
